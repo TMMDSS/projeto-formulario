@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: linear-gradient(to right, rgb(50, 50, 109), rgb(25, 138, 138));
+    background: rgb(178, 219, 30);
     
 }
 
@@ -23,8 +23,12 @@ p {
 }
 
 .formulario {
-    background-color: rgba(0, 0, 0, 0.582);
-    padding: 15px;
+    background-color: rgb(179, 162, 10);
+    border-radius: 25px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    box-shadow: 7px 5px 0px 5px black;
+    padding: 30px 0 30px 0;
     width: 400px;
 }
 
@@ -49,17 +53,24 @@ p {
 .inputUser:focus ~ .labelInput,
 .inputUser:valid ~ .labelInput {
     top: -10px;
-    font-size: 12px;
-    color: dodgerblue;
+    background-color: rgb(243, 243, 27);
+    padding: 2px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 0px 1px black;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+
 }
 
 fieldset {
     border: 3px solid dodgerblue;
+    border-radius: 50px;
     padding: 10px;
 }
 
 legend {
     border: 1px solid dodgerblue;
+    border-radius: 50px;
     text-align: center;
     padding: 10px;
     background-color: dodgerblue;
@@ -97,6 +108,8 @@ legend {
     outline: none;
     font-size: 15px;
     color: white;
-    border: 1px solid white;
-    background-color: transparent;
+    text-shadow: 1px 1px 1px black;
+
+    border: 1px solid black;
+    background-color: rgb(243, 243, 27);
 }
