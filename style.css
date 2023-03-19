@@ -1,0 +1,57 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(50, 50, 109), rgb(25, 138, 138));
+    
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    background-color: rgba(0, 0, 0, 0.582);
+    padding: 15px;
+    width: 500px;
+}
+
+.inputBox {
+    padding: 15px;
+    color: white;
+    
+    
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 15px;
+}
+
+fieldset {
+    border: 3px solid dodgerblue;
+}
+
+legend {
+    border: 1px solid dodgerblue;
+    text-align: center;
+    padding: 10px;
+    background-color: dodgerblue;
+}
