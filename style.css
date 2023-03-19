@@ -54,6 +54,7 @@ p {
 
 fieldset {
     border: 3px solid dodgerblue;
+    padding: 10px;
 }
 
 legend {
@@ -86,4 +87,13 @@ legend {
     left: 15px;
     pointer-events: none;
     transition: .5s;
+}
+
+#data {
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    color: black;
 }
