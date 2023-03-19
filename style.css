@@ -30,7 +30,7 @@ p {
 .inputBox {
     padding: 15px;
     color: white;
-    
+    position: relative;
     
 }
 
@@ -43,6 +43,12 @@ p {
     font-size: 15px;
     width: 100%;
     letter-spacing: 7px;
+}
+
+.inputUser:focus ~ .labelInput {
+    top: -10px;
+    font-size: 12px;
+    color: dodgerblue;
 }
 
 fieldset {
@@ -71,4 +77,12 @@ legend {
     cursor: pointer;
     background-color: dodgerblue;
     color: white;
+}
+
+.labelInput {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    pointer-events: none;
+    transition: .5s;
 }
