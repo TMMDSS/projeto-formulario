@@ -42,7 +42,7 @@ p {
     color: white;
     font-size: 15px;
     width: 100%;
-    letter-spacing: 15px;
+    letter-spacing: 7px;
 }
 
 fieldset {
@@ -54,4 +54,21 @@ legend {
     text-align: center;
     padding: 10px;
     background-color: dodgerblue;
+}
+
+#submit {
+    display: block;
+    width: 70px;
+    height: 30px;
+    margin: 5px auto;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+    box-shadow: inset 1px 1px 9px 5px dodgerblue;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: dodgerblue;
+    color: white;
 }
