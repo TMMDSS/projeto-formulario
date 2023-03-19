@@ -45,7 +45,8 @@ p {
     letter-spacing: 7px;
 }
 
-.inputUser:focus ~ .labelInput {
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput {
     top: -10px;
     font-size: 12px;
     color: dodgerblue;
